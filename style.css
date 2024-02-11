@@ -6,11 +6,16 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    background-color: wheat;
+    background-color: rgb(193, 193, 6);
+}
+
+header h2{
+    padding-left: 10px;
 }
 
 h2,li,a{
     font-family: Montserrat, sans-serif;
+    background-color: rgb(193, 118, 6);
 }
 
 header{
@@ -20,14 +25,17 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     height: 100px;
+    background-color: rgb(193, 118, 6);
 }
 
 nav{
     justify-content:center;
+    background-color: rgb(193, 118, 6);
 }
 
 .menu{
     list-style: none;
+    background-color: rgb(193, 118, 6);
 }
 
 .menu li{
@@ -42,4 +50,32 @@ nav{
 
 .menu li a:hover{
     opacity: 0.6;
+}
+
+/* carousel */
+
+.container{
+    padding: 30px;
+}
+
+.slide-wrapper{
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+.slider{
+    display: flex;
+    overflow-x: auto;
+    aspect-ratio: 16/9;
+    scroll-snap-type: x mandatory;
+    box-shadow: 0px 0px 60px 40px black inset;
+    border-radius: 5px;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
 }
