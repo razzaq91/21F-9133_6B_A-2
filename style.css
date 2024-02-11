@@ -88,6 +88,7 @@ nav{
 
 .today-menu h2 {
     text-align: center;
+    font-family:  Montserrat, sans-serif;
 }
 
 .cards {
@@ -116,6 +117,7 @@ nav{
     margin-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    font-family:  Montserrat, sans-serif;
 }
 
 .card-item:nth-child(1):hover {
@@ -138,6 +140,7 @@ nav{
 
 .customer-remarks h2{
     text-align: center;
+    font-family:  Montserrat, sans-serif;
 }
 
 .remarks{
@@ -162,8 +165,204 @@ nav{
 
 .order{
     padding: 30px;
+    align-items: center;
 }
 
 .order h2{
     text-align: center;
+    font-family:  Montserrat, sans-serif;
+}
+
+.order p{
+    margin-top: 10px;
+    font-family:  Montserrat, sans-serif;
+    text-align: center;
+}
+
+.order button{
+    margin-top: 10px;
+    margin-left: 740px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family:  Montserrat, sans-serif;
+    background-color: rgb(193, 118, 6);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0, 0.2);
+    transition: all ease-in-out 0.3s;
+}
+
+.order button:hover{
+    opacity: 0.7;
+}
+
+.order button:active{
+    background-color: black;
+    color: rgb(193, 118, 6);
+}
+
+/* Qualities */
+
+.order{
+    padding: 30px;
+}
+
+.quality-item{
+    margin-top: 10px;
+}
+
+.quality-item h3{
+    text-align: center;
+    font-family:  Montserrat, sans-serif;
+}
+
+.quality-item p{
+    text-align: center;
+    margin-top: 5px;
+    font-family:  Montserrat, sans-serif;
+}
+
+/* Contact */
+
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea,input,label{
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    background-color: rgb(193, 118, 6);
+    color: rgb(15, 17, 17);
+    cursor: text;
+    border-radius: 2px;
+}
+
+input{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: black;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
+}
+
+.contact{
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 400px;
+    background-color: rgb(193, 118, 6);
+}
+
+.contact.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-heading{
+    font-weight: 500;
+    margin-left: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+.name{
+    padding-top: 15px;
+    margin-left: 0px;
+}
+
+.email{
+    padding-top: 15px;
+    margin-left: 0px;
+}
+
+.number{
+    padding-top: 15px;
+    margin-left: 0px;
+}
+
+.message{
+    padding-top: 15px;
+    margin-left: 0px;
+}
+
+.submit-button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 140px;
+    padding-right: 139px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.reset-button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-top: 7px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 143px;
+    padding-right: 143px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.submit-button:hover{
+    opacity: 0.7;
+}
+
+.submit-button:active{
+    background-color: white;
+    color: green;
+}
+
+.reset-button:hover{
+    opacity: 0.7;
+}
+
+.reset-button:active{
+    background-color: white;
+    color: green;
+}
+
+
+/* footer */
+
+.footer{
+    padding: 0px;
+    background-color: rgb(193, 118, 6);
+}
+
+.footer h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(193, 118, 6);
 }
