@@ -79,3 +79,55 @@ nav{
     scroll-snap-align: start;
     object-fit: cover;
 }
+
+/* Menu */
+
+.today-menu {
+    padding: 30px;
+}
+
+.today-menu h2 {
+    text-align: center;
+}
+
+.cards {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    overflow: hidden;
+}
+
+.card-item {
+    padding: 5px;
+    border: 2px solid black;
+    transition: transform 2s ease-in-out; 
+    cursor: pointer; 
+}
+
+.card-item img {
+    width: 100%;
+    height: auto;
+}
+
+.card-item h4 {
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.card-item:nth-child(1):hover {
+    transform: rotate(360deg); /* Apply a different transform for the first card */
+}
+
+.card-item:nth-child(2):hover {
+    transform: rotate3d(0, 1, 0, 360deg); /* Apply a different 3D rotation for the second card */
+}
+
+.card-item:nth-child(3):hover {
+    transform: rotate(-360deg); /* Apply a different transform for the first card */
+}
+
+/* customer say */
