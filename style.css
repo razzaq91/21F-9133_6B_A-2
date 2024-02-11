@@ -130,4 +130,40 @@ nav{
     transform: rotate(-360deg); /* Apply a different transform for the first card */
 }
 
-/* customer say */
+/* customer remarks */
+
+.customer-remarks{
+    padding: 30px;
+}
+
+.customer-remarks h2{
+    text-align: center;
+}
+
+.remarks{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.remark-item{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.remark-item p{
+    font-family: Montserrat, sans-serif;
+    font-size: larger;
+}
+
+
+/* Order */
+
+.order{
+    padding: 30px;
+}
+
+.order h2{
+    text-align: center;
+}
