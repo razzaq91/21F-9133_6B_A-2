@@ -1,4 +1,45 @@
-.navbar{
-    margin-top: 0px;
-    padding-top: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+/* Navbar Section */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: wheat;
+}
+
+h2,li,a{
+    font-family: Montserrat, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+}
+
+nav{
+    justify-content:center;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.menu li a{
+    color: black;
+    transition: all ease 0.7s;
+}
+
+.menu li a:hover{
+    opacity: 0.6;
 }
